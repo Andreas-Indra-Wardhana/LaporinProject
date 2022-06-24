@@ -1,0 +1,89 @@
+
+.atas {
+    width: 100px;
+    margin-bottom: 5px;
+    
+}
+
+.bawah {
+    width: 100px;
+    
+}
+
+.hilang {
+    text-align: right;
+}
+
+.x {
+    text-align: left;
+}
+
+.kolom{
+    text-align: center;
+}
+@media screen and (max-width: 513px) {
+    .tengah {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .image img {
+        display: none;
+    }
+
+    .jarak {
+        margin: 0 25%;
+        margin-bottom: 5%;
+    }
+
+    .tata-Cara {
+        margin-top: 28%;
+        margin-bottom: 26%;
+    }
+
+    .textFormPel {
+        margin-top: 8%;
+    }
+
+    .jumbotron img {
+        margin-left: 20%;;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
+    .send {
+        padding-top: 109%;
+    }
+
+    .historiLaporan {
+        background-color: #ffc107;
+        margin-top: 10%;
+    }
+    
+    svg {
+        margin-bottom: 35%;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .jarak {
+        margin: 0 25%;
+        margin-bottom: 5%;
+    }
+
+    .textFormPel {
+        margin-top: 8%;
+    }
+
+    .jumbotron img {
+        margin-left: -12%;
+        width: 120%;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
+}
